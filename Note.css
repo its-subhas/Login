@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: seagreen;
+  color: white;
+  font-family: Geograph, Helvetica, Arial, sans-serif;
+}
+.note {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding: 5%;
+}
+.note .logo {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.note .logo img {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.note .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: gold;
+}
+.note .socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 40%;
+}
+.note .socialmedia a {
+  height: 50px;
+}
+.note .socialmedia a img {
+  height: 100%;
+}
+.note .socialmedia a img:hover {
+  background-color: gold;
+  border: aqua solid 5px;
+  border-radius: 20%;
+}
+.note:hover .socialmedia a img {
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  transition-delay: 0;
+}
