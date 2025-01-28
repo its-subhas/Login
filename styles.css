@@ -56,8 +56,13 @@ body {
 .md .rf {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 14.5px;
   margin: -15px 0 15px;
+}
+.ct {
+  display: flex;
+  align-items: center;
 }
 .rf label input {
   cursor: pointer;
